@@ -14,7 +14,7 @@ import {Provider} from 'react-redux'
 //Creating an intialstore to serve as an argument for the redux store
 const initialStore = {
   cart: cartItems,
-  total: 0,
+  total: 105,
   amount: 0
 }
 
@@ -25,9 +25,10 @@ function App() {
   // cart setup
 
   return (
+    //Passing store as a props
     <Provider store={store}>
       <Navbar/>
-      <CartContainer cart={cartItems} />
+      <CartContainer/>
     </Provider>
   );
 }
