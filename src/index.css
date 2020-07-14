@@ -201,8 +201,21 @@ Cart
   color: var(--clr-red-dark);
   border: 1px solid var(--clr-red-dark);
   margin-top: 2.25rem;
+  margin-right: 2.25em;
 }
 .clear-btn:hover {
+  background: var(--clr-red-light);
+  color: var(--clr-red-dark);
+  border-color: var(--clr-red-light);
+}
+.check-out {
+  background: transparent;
+  padding: 0.5rem 1rem;
+  color: var(--clr-red-dark);
+  border: 1px solid var(--clr-red-dark);
+  margin-top: 2.25rem;
+}
+.check-out:hover {
   background: var(--clr-red-light);
   color: var(--clr-red-dark);
   border-color: var(--clr-red-light);
